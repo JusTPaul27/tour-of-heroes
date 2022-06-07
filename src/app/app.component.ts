@@ -7,30 +7,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  title: string = 'Lista studenti';
-  // students: string[] = ['Pippo', 'Pluto', 'Fabio', 'Paperino', 'Gigi', 'Luigi', 'Gastone'];
-  students2: any[] = [
-    {
-      name: 'pippo',
-      grade: 10
-    },
-    {
-      name: 'pluto',
-      grade: 7
-    },
-    {
-      name: 'franco',
-      grade: 8.5
-    },
-    {
-      name: 'massimo',
-      grade: 4.5
-    },
-    {
-      name: 'giovanni ',
-      grade: 7
-    }
-  ]
+  title: string = 'Tour of heroes';
+  // // students: string[] = ['Pippo', 'Pluto', 'Fabio', 'Paperino', 'Gigi', 'Luigi', 'Gastone'];
+  // students2: any[] = [
+  //   {
+  //     name: 'pippo',
+  //     grade: 10
+  //   },
+  //   {
+  //     name: 'pluto',
+  //     grade: 7
+  //   },
+  //   {
+  //     name: 'franco',
+  //     grade: 8.5
+  //   },
+  //   {
+  //     name: 'massimo',
+  //     grade: 4.5
+  //   },
+  //   {
+  //     name: 'giovanni ',
+  //     grade: 7
+  //   }
+  // ]
 
   constructor(){
 
